@@ -1,0 +1,1018 @@
+/* line 4, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+/* line 14, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+body {
+  background-color: #ffffff;
+  position: relative; }
+
+@font-face {
+  src: url(BebasNeue.ttf);
+  font-family: "Bebas Neue"; }
+
+/* line 28, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.navbar {
+  color: whitesmoke;
+  padding: 0;
+  font-family: "Bebas Neue", Arial, serif; }
+
+/* line 36, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.navbar-brand {
+  padding: 0px; }
+
+/* line 42, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.logo {
+  height: auto;
+  width: 80%; }
+
+/* line 50, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.img-fluid {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-left: 70px;
+  padding-right: 140px; }
+
+@media screen and (min-width: 1750px) {
+  /* line 60, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .img-fluid, .container-fluid {
+    margin-left: 5%; } }
+
+/* line 69, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.side_contact {
+  width: 200px;
+  height: 80px;
+  vertical-align: middle;
+  margin-top: 495px;
+  border: 0px;
+  margin-left: -70px;
+  margin-right: -170px;
+  position: fixed;
+  font-family: "Bebas Neue", Arial, serif;
+  background: #e7cafa;
+  color: #504f4f;
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  float: left; }
+
+/* line 102, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.side_about {
+  width: 100px;
+  height: 80px;
+  vertical-align: middle;
+  margin-top: 350px;
+  border: 0px;
+  margin-left: -20px;
+  margin-right: -20px;
+  position: fixed;
+  font-family: "Bebas Neue", Arial, serif;
+  background: #e7cafa;
+  color: #504f4f;
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  float: left; }
+
+/* line 134, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.instagram {
+  background: #ff775e;
+  color: #504f4f;
+  width: 120px;
+  height: 80px;
+  border: 0;
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+  /* IE */
+  -ms-transform: rotate(90deg);
+  /* Opera */
+  -o-transform: rotate(90deg); }
+
+/* line 160, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#mybutton {
+  position: fixed;
+  top: 300px;
+  right: -30px; }
+
+@media (max-width: 990px) {
+  /* line 169, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  #mybutton {
+    display: none; }
+  /* line 173, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .side_about {
+    display: none; }
+  /* line 177, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .side_contact {
+    display: none; } }
+
+/* line 186, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.insta {
+  height: 20px;
+  width: 20px;
+  margin-left: 40%; }
+
+/* line 195, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+h1 {
+  color: lightpink;
+  font-family: "Bebas Neue", Arial, serif;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 200px; }
+
+@media screen and (max-width: 990px) {
+  /* line 206, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h1 {
+    font-size: 80px;
+    margin-top: 150px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 213, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h1 {
+    font-size: 50px;
+    margin-top: 70px; } }
+
+/* line 219, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.about {
+  color: #bcbbbb;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: arial, serif;
+  font-size: 20px; }
+
+@media screen and (max-width: 990px) {
+  /* line 232, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .about {
+    font-size: 15px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 239, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .about {
+    font-size: 12px; } }
+
+/* line 245, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+section1 {
+  width: 100%; }
+
+/* line 250, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.contact {
+  color: gray;
+  background: white;
+  background-color: inherit;
+  font-size: 25px;
+  cursor: pointer;
+  width: 110px;
+  margin: 20px;
+  font-family: "Bebas Neue", Arial, serif;
+  margin-top: 50px;
+  padding: 0;
+  border-color: gray; }
+
+/* line 265, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.contact-div {
+  text-align: center;
+  position: relative;
+  margin: 0 auto; }
+
+/* line 277, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+h2 {
+  color: white;
+  font-family: "Bebas Neue", Arial, serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 180px;
+  background-color: #F9E1BF;
+  background-size: contain;
+  margin-bottom: 70px; }
+
+@media screen and (max-width: 990px) {
+  /* line 292, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 300, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h2 {
+    font-size: 25px;
+    margin-top: 70px; } }
+
+/* line 310, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 314, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+body {
+  margin: 0; }
+
+/* line 320, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+img {
+  display: block;
+  max-width: 101%;
+  transition: 300ms 50ms; }
+
+/* line 326, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+p3,
+p4,
+p5 {
+  font-family: "Bebas Neue", Arial, serif;
+  background-color: #ffcccc;
+  color: #ffffff;
+  padding: 13px;
+  margin: 0px; }
+
+/* line 339, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+p4 {
+  background-color: #facce7; }
+
+/* line 344, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+p5 {
+  background-color: #b1abde; }
+
+/* line 349, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+a:hover {
+  color: #dbdbdb; }
+
+/* line 353, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.modal-img {
+  margin: 0px;
+  padding: 0px; }
+
+/* line 358, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.red {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%; }
+
+@media screen and (max-width: 601px) {
+  /* line 366, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .red {
+    margin-left: 25%; } }
+
+@media screen and (max-width: 301px) {
+  /* line 372, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .red {
+    margin-left: none; } }
+
+/* line 379, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.modal-body {
+  background-color: #f5f4f4;
+  color: #dedddd;
+  width: 100%; }
+
+/* line 388, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.modal_text {
+  position: relative;
+  margin-left: 400px;
+  font-size: 10px; }
+
+@media screen and (max-width: 601px) {
+  /* line 396, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .modal_text {
+    margin: 10px;
+    float: left; } }
+
+@media screen and (max-width: 1001px) {
+  /* line 404, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .modal_text {
+    margin-left: 0px; } }
+
+/* line 411, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+p6 {
+  font-family: Arial, serif;
+  color: grey;
+  font-size: 15px; }
+
+@media screen and (max-width: 990px) {
+  /* line 420, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .about {
+    font-size: 15px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 427, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .about {
+    font-size: 12px; } }
+
+/* line 436, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.modal-footer {
+  background-color: #fae3e3;
+  font-family: "Bebas Neue", Arial, serif; }
+
+/* line 442, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+h6 {
+  font-family: "Bebas Neue", Arial, serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+  color: white; }
+
+/* line 452, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.modal-header {
+  background-color: #edbaba; }
+
+/* line 457, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.red {
+  width: 50%; }
+
+/* line 461, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.btn {
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  color: #969696; }
+
+/* line 469, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.btn:hover {
+  opacity: 0.6; }
+
+/* line 474, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.bclose {
+  color: white; }
+
+/* line 478, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.modal-dialog modal-dialog-centered {
+  width: 700%; }
+
+/* line 482, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 12vw;
+  padding: 9.15vh;
+  position: relative; }
+
+/* line 509, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* line 515, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+body {
+  margin: 0;
+  padding: 0;
+  color: #eee; }
+
+/* line 521, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.outer-wrapper {
+  width: 80%;
+  margin: 50px auto; }
+
+/* line 527, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.s-wrap {
+  width: 102%;
+  margin-bottom: 50px;
+  padding-bottom: 55%;
+  position: relative;
+  border: 5px solid #fafafa;
+  background-color: #efefe8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden; }
+  /* line 537, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap > input {
+    display: none; }
+  /* line 541, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-content {
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1100%;
+    height: 100%;
+    font-size: 0;
+    list-style: none;
+    transition: transform 1s; }
+  /* line 554, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item {
+    display: inline-block;
+    width: 9.09091%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  /* line 562, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-1 {
+    background-image: url("pic-01.jpg"); }
+  /* line 565, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-2 {
+    background-image: url("pic-02.jpg"); }
+  /* line 568, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-3 {
+    background-image: url("pic-03.jpg"); }
+  /* line 571, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-4 {
+    background-image: url("pic-04.jpg"); }
+  /* line 574, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-5 {
+    background-image: url("pic-05.jpg"); }
+  /* line 577, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-6 {
+    background-image: url("pic-06.jpg"); }
+  /* line 580, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-7 {
+    background-image: url("pic-07.jpg"); }
+  /* line 583, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-8 {
+    background-image: url("pic-11.jpg"); }
+  /* line 586, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-9 {
+    background-image: url("pic-09.jpg"); }
+  /* line 589, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-wrap .s-item-10 {
+    background-image: url("pic-10.jpg"); }
+
+/* line 596, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.s-nav label {
+  display: none;
+  position: absolute;
+  top: 50%;
+  padding: 5px 10px;
+  transform: translateY(-50%);
+  cursor: pointer; }
+  /* line 604, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-nav label::before, .s-nav label::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 24px;
+    background-color: #fff; }
+  /* line 613, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-nav label::before {
+    margin-bottom: -12px; }
+  /* line 617, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-nav label.left {
+    left: 20px; }
+    /* line 620, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+    .s-nav label.left::before {
+      transform: rotate(45deg); }
+    /* line 624, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+    .s-nav label.left::after {
+      transform: rotate(-45deg); }
+  /* line 629, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-nav label.right {
+    right: 20px; }
+    /* line 632, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+    .s-nav label.right::before {
+      transform: rotate(-45deg); }
+    /* line 636, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+    .s-nav label.right::after {
+      transform: rotate(45deg); }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-1:checked ~ .s-content {
+  transform: translateX(0%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-1:checked ~ .s-control .s-c-1 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-1:checked ~ .s-nav .s-nav-1 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-2:checked ~ .s-content {
+  transform: translateX(-9.09091%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-2:checked ~ .s-control .s-c-2 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-2:checked ~ .s-nav .s-nav-2 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-3:checked ~ .s-content {
+  transform: translateX(-18.18182%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-3:checked ~ .s-control .s-c-3 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-3:checked ~ .s-nav .s-nav-3 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-4:checked ~ .s-content {
+  transform: translateX(-27.27273%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-4:checked ~ .s-control .s-c-4 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-4:checked ~ .s-nav .s-nav-4 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-5:checked ~ .s-content {
+  transform: translateX(-36.36364%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-5:checked ~ .s-control .s-c-5 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-5:checked ~ .s-nav .s-nav-5 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-6:checked ~ .s-content {
+  transform: translateX(-45.45455%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-6:checked ~ .s-control .s-c-6 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-6:checked ~ .s-nav .s-nav-6 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-7:checked ~ .s-content {
+  transform: translateX(-54.54545%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-7:checked ~ .s-control .s-c-7 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-7:checked ~ .s-nav .s-nav-7 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-8:checked ~ .s-content {
+  transform: translateX(-63.63636%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-8:checked ~ .s-control .s-c-8 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-8:checked ~ .s-nav .s-nav-8 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-9:checked ~ .s-content {
+  transform: translateX(-72.72727%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-9:checked ~ .s-control .s-c-9 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-9:checked ~ .s-nav .s-nav-9 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-10:checked ~ .s-content {
+  transform: translateX(-81.81818%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-10:checked ~ .s-control .s-c-10 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-10:checked ~ .s-nav .s-nav-10 {
+  display: block; }
+
+/* line 644, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-11:checked ~ .s-content {
+  transform: translateX(-90.90909%); }
+
+/* line 648, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-11:checked ~ .s-control .s-c-11 {
+  background-color: #333; }
+
+/* line 652, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+#s-11:checked ~ .s-nav .s-nav-11 {
+  display: block; }
+
+/* line 660, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.s-type-2 .s-content {
+  animation: slider-animation 50s ease-in-out infinite; }
+  /* line 663, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .s-type-2 .s-content:hover {
+    animation-play-state: paused; }
+
+@keyframes slider-animation {
+  0%,
+  7% {
+    transform: translateX(0%); }
+  5%,
+  12% {
+    transform: translateX(-9.09091%); }
+  10%,
+  17% {
+    transform: translateX(-18.18182%); }
+  15%,
+  22% {
+    transform: translateX(-27.27273%); }
+  20%,
+  27% {
+    transform: translateX(-36.36364%); }
+  25%,
+  32% {
+    transform: translateX(-45.45455%); }
+  30%,
+  37% {
+    transform: translateX(-54.54545%); }
+  35%,
+  42% {
+    transform: translateX(-63.63636%); }
+  40%,
+  47% {
+    transform: translateX(-72.72727%); }
+  45%,
+  52% {
+    transform: translateX(-81.81818%); }
+  50%,
+  57% {
+    transform: translateX(-90.90909%); }
+  55%,
+  62% {
+    transform: translateX(-81.81818%); }
+  60%,
+  67% {
+    transform: translateX(-72.72727%); }
+  65%,
+  72% {
+    transform: translateX(-63.63636%); }
+  70%,
+  77% {
+    transform: translateX(-54.54545%); }
+  75%,
+  82% {
+    transform: translateX(-45.45455%); }
+  80%,
+  87% {
+    transform: translateX(-36.36364%); }
+  85%,
+  92% {
+    transform: translateX(-27.27273%); }
+  90%,
+  97% {
+    transform: translateX(-18.18182%); }
+  95%,
+  102% {
+    transform: translateX(-9.09091%); } }
+
+/* line 692, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.btn2 {
+  position: absolute;
+  font-family: "Bebas Neue", Arial, serif;
+  background-color: #fdb6b6;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 1px;
+  cursor: pointer;
+  text-align: center; }
+
+/* line 710, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+h3 {
+  color: lightpink;
+  font-family: "Bebas Neue", Arial, serif;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+/* line 720, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+section2 {
+  margin-left: 70px;
+  margin: 70px; }
+
+@media screen and (max-width: 990px) {
+  /* line 727, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h3 {
+    font-size: 50px;
+    margin-top: 100px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 734, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h3 {
+    font-size: 40px;
+    margin-top: 40px; } }
+
+/* line 741, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.wrapper {
+  position: absolute;
+  font-family: "Bebas Neue", Arial, serif;
+  background-color: #fdb6b6;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 1px;
+  cursor: pointer;
+  text-align: center; }
+
+/* line 753, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.wrapper .tooltip {
+  left: 100%;
+  font-size: 10px;
+  top: 0px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 600%;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  transform: translateY(10px);
+  -webkit-transition: all .25s ease-out;
+  -moz-transition: all .25s ease-out;
+  -ms-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  transition: all .25s ease-out;
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28); }
+
+/* line 786, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.tooltip {
+  background: #86698e;
+  bottom: 100%;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 200px;
+  font-size: 12px;
+  width: 700%; }
+
+@media screen and (max-width: 2000px) {
+  /* line 802, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 14px;
+    width: 700%; } }
+
+@media screen and (max-width: 1700px) {
+  /* line 810, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 12px;
+    width: 600%; } }
+
+@media screen and (max-width: 800px) {
+  /* line 817, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 12px;
+    width: 380%; } }
+
+@media screen and (max-width: 750px) {
+  /* line 825, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 9px;
+    width: 350%; } }
+
+@media screen and (max-width: 650px) {
+  /* line 832, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 9px;
+    width: 300%; } }
+
+@media screen and (max-width: 600px) {
+  /* line 838, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 8px;
+    width: 260%; } }
+
+@media screen and (max-width: 550px) {
+  /* line 844, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 7px;
+    width: 220%; } }
+
+@media screen and (max-width: 510px) {
+  /* line 850, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 6px;
+    width: 180%; } }
+
+@media screen and (max-width: 450px) {
+  /* line 856, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .wrapper .tooltip {
+    font-size: 5.9px;
+    width: 160%; } }
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+/* line 863, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.wrapper .tooltip:before {
+  bottom: 80px;
+  top: 0px;
+  content: " ";
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%; }
+
+/* line 873, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.wrapper .tooltip:after {
+  bottom: -10px;
+  content: "";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0; }
+
+/* line 884, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.wrapper:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px); }
+
+/* IE can just show/hide with no transition */
+/* line 896, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.lte8 .wrapper .tooltip {
+  display: none; }
+
+/* line 900, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.lte8 .wrapper:hover .tooltip {
+  display: block; }
+
+/* line 906, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.colour-block {
+  background: #fdefd9;
+  width: 100%;
+  padding: 7% 20% 10% 20%;
+  color: #fff; }
+
+/* line 913, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.white-block {
+  background: #fff;
+  width: 100%;
+  padding: 7% 20% 10% 20%;
+  color: #369A7E; }
+
+/* line 920, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: normal; }
+
+/*----------------*/
+/*  SCALLOP down  */
+/*----------------*/
+/* line 935, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.scallop-down {
+  height: 50px;
+  width: 100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#fdefd9), color-stop(0.49, #fdefd9), color-stop(0.51, #fff), to(white));
+  -webkit-background-size: 49px 100%; }
+
+/*----------------*/
+/*  SCALLOP up    */
+/*----------------*/
+/* line 949, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.scallop-up {
+  height: 100px;
+  width: 100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#fdefd9), color-stop(0.49, #fdefd9), color-stop(0.51, #fff), to(white));
+  -webkit-background-size: 49px 100%; }
+
+/* line 959, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+p7 {
+  font-size: 14px;
+  font-family: Arial, serif;
+  color: grey;
+  text-align: center; }
+
+/* line 968, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+iframe {
+  width: 91%;
+  height: 450px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin-top: 20px;
+  background-color: white;
+  margin-left: 4.5%; }
+
+@media screen and (max-width: 1160px) {
+  /* line 980, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  iframe {
+    width: 89%;
+    margin-left: 5.5%; } }
+
+/* line 987, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+h4 {
+  color: #555555;
+  font-family: "Bebas Neue", Arial, serif;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 60px; }
+
+@media screen and (max-width: 990px) {
+  /* line 1001, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 40px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 1009, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h4 {
+    font-size: 16px;
+    margin-right: 30px; } }
+
+/* line 1015, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+p {
+  color: #9d9c9c;
+  font-family: "Bebas Neue", Arial, serif;
+  font-size: 16px;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 60px; }
+
+@media screen and (max-width: 990px) {
+  /* line 1029, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 40px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 1038, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  p {
+    font-size: 12px;
+    margin-right: 30px; } }
+
+/* line 1045, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+.insta2 {
+  height: 15px;
+  width: 17px;
+  float: right;
+  margin-right: 60px;
+  margin-bottom: 0px; }
+
+@media screen and (max-width: 990px) {
+  /* line 1056, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  .insta2 {
+    margin-bottom: 20px;
+    margin-right: 40px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 1064, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  insta2 {
+    margin-bottom: 20px;
+    margin-right: 30px; } }
+
+/* line 1073, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+h5 {
+  color: #919191;
+  font-family: "Bebas Neue", Arial, serif;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+@media screen and (max-width: 990px) {
+  /* line 1085, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h5 {
+    font-size: 50px;
+    margin-top: 100px; } }
+
+@media screen and (max-width: 601px) {
+  /* line 1092, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+  h5 {
+    font-size: 40px;
+    margin-top: 40px; } }
+
+/* line 1097, Users/Molly/Documents/Web Design - Portfolio/styles.scss */
+a {
+  color: #a09f9f; }
+
+/*# sourceMappingURL=styles.css.map */

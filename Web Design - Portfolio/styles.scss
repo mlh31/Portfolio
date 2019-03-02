@@ -1,0 +1,1100 @@
+
+//------------BODY-------------//
+$primarycolour: #ffffff;
+html,
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: $primarycolour;
+    position: relative;
+
+}
+
+
+@font-face{
+    src:url(BebasNeue.ttf);
+    font-family:"Bebas Neue";
+}
+
+
+//----------NAVIGATION---------//
+.navbar {
+    color: whitesmoke;
+    padding: 0;
+    font-family: "Bebas Neue", Arial, serif;
+
+
+}
+
+.navbar-brand {
+    padding: 0px;
+
+
+}
+
+.logo {
+    height: auto;
+    width: 80%;
+
+}
+
+
+//----------OPENING IMAGE--------//
+.img-fluid {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-left: 70px;
+    padding-right: 140px;
+}
+
+@media screen and (min-width: 1750px) {
+    .img-fluid, .container-fluid{
+       margin-left:5%;
+    }
+}
+
+
+
+
+//--------Buttons for navigation--------//
+.side_contact {
+
+    width: 200px;
+    height: 80px;
+    vertical-align: middle;
+    margin-top: 495px;
+    border: 0px;
+    margin-left: -70px;
+    margin-right: -170px;
+    position: fixed;
+
+
+    font-family: "Bebas Neue",
+    Arial,
+    serif;
+    background: #e7cafa;
+    color: #504f4f; //-----------ROTATE----------//
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    float: left;
+}
+
+
+.side_about {
+
+    width: 100px;
+    height: 80px;
+    vertical-align: middle;
+    margin-top: 350px;
+    border: 0px;
+
+    margin-left: -20px;
+    margin-right: -20px;
+    position: fixed;
+
+    font-family: "Bebas Neue",
+    Arial,
+    serif;
+    background: #e7cafa;
+    color: #504f4f; //-----------ROTATE----------//
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    float: left;
+}
+
+.instagram {
+
+    background: #ff775e;
+    color: #504f4f;
+    width: 120px;
+    height: 80px;
+
+
+
+    border: 0; //-----------ROTATE----------//
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+
+    /* IE */
+    -ms-transform: rotate(90deg);
+
+    /* Opera */
+    -o-transform: rotate(90deg);
+
+
+
+}
+
+#mybutton {
+    position: fixed;
+    top: 300px;
+    right: -30px;
+
+}
+
+//Get rid of the buttons if the screen with is smaller than 990 px//
+@media (max-width: 990px) {
+    #mybutton {
+        display: none;
+    }
+
+    .side_about {
+        display: none;
+    }
+
+    .side_contact {
+        display: none;
+    }
+
+
+
+}
+
+//---------Instagram symbol----------//
+.insta {
+    height: 20px;
+    width: 20px;
+    margin-left: 40%;
+
+
+}
+
+//-----------------ABOUT------------//
+h1 {
+
+    color: lightpink;
+    font-family: "Bebas Neue", Arial, serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+//---------text resizing-----------//
+@media screen and (max-width: 990px) {
+    h1 {
+        font-size: 80px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    h1 {
+        font-size: 50px;
+        margin-top: 70px;
+    }
+}
+
+.about {
+    color: #bcbbbb;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: arial, serif;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width: 990px) {
+    .about {
+        font-size: 15px;
+
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .about {
+        font-size: 12px;
+
+    }
+}
+
+section1 {
+    width: 100%;
+}
+
+//--------CONTACT BUTTON---------//
+.contact {
+    color: gray;
+    background: white;
+    background-color: inherit;
+    font-size: 25px;
+    cursor: pointer;
+    width: 110px;
+    margin: 20px;
+    font-family: "Bebas Neue", Arial, serif;
+    margin-top: 50px;
+    padding: 0;
+    border-color: gray;
+
+}
+
+.contact-div {
+
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+
+
+//----------------PROJECTS--------------//
+h2 {
+
+    color: white;
+    font-family: "Bebas Neue", Arial, serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 180px;
+    background-color: #F9E1BF;
+    background-size: contain;
+    margin-bottom: 70px;
+
+
+}
+
+@media screen and (max-width: 990px) {
+    h2 {
+        font-size: 30px;
+
+
+    }
+}
+
+@media screen and (max-width: 601px) {
+    h2 {
+        font-size: 25px;
+        margin-top: 70px;
+
+    }
+}
+
+
+
+//---------------Designs----------------//
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+img {
+    display: block;
+    max-width: 101%;
+    transition: 300ms 50ms;
+
+} //------------gallery and modal------------//
+p3,
+p4,
+p5,
+    {
+    font-family: "Bebas Neue", Arial, serif;
+    background-color: #ffcccc;
+    color: #ffffff;
+    padding: 13px;
+    margin: 0px;
+
+}
+
+
+p4 {
+    background-color: #facce7;
+
+}
+
+p5 {
+    background-color: #b1abde;
+
+}
+
+a:hover {
+    color: #dbdbdb;
+}
+
+.modal-img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.red {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+}
+
+@media screen and (max-width:601px) {
+    .red {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width:301px) {
+    .red {
+        margin-left: none;
+
+
+    }
+}
+
+.modal-body,
+    {
+
+    background-color: #f5f4f4;
+    color: #dedddd;
+    width: 100%;
+
+}
+
+.modal_text {
+    position: relative;
+    margin-left: 400px;
+    font-size: 10px;
+
+}
+
+@media screen and (max-width:601px) {
+    .modal_text {
+        margin: 10px;
+        float: left;
+
+    }
+}
+
+@media screen and (max-width:1001px) {
+    .modal_text {
+        margin-left: 0px;
+
+    }
+}
+
+
+p6 {
+    font-family: Arial, serif;
+    color: grey;
+    font-size: 15px;
+
+}
+
+
+@media screen and (max-width: 990px) {
+    .about {
+        font-size: 15px;
+
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .about {
+        font-size: 12px;
+
+    }
+
+
+
+}
+
+.modal-footer {
+    background-color: #fae3e3;
+    font-family: "Bebas Neue", Arial, serif;
+
+}
+
+h6,
+    {
+    font-family: "Bebas Neue", Arial, serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.modal-header {
+    background-color: #edbaba;
+
+}
+
+.red {
+    width: 50%;
+}
+
+.btn {
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    color: #969696;
+}
+
+
+.btn:hover {
+    opacity: (.6);
+
+}
+
+.bclose {
+    color: white;
+}
+
+.modal-dialog modal-dialog-centered {
+    width: 700%;
+}
+
+.gallery {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 12vw;
+    padding: 9.15vh;
+    position: relative;
+
+}
+
+//-------------slider------------//
+$switch-speed: 1s;
+$slider-number: 11;
+$slider-width: 100% / $slider-number;
+
+$image1: 'pic-01.jpg';
+$image2: 'pic-02.jpg';
+$image3: 'pic-03.jpg';
+$image4: 'pic-04.jpg';
+$image5: 'pic-05.jpg';
+$image6: 'pic-06.jpg';
+$image7: 'pic-07.jpg';
+$image8: 'pic-08.jpg';
+$image9: 'pic-09.jpg';
+$image10: 'pic-10.jpg';
+$image11: 'pic-11.jpg';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #eee;
+}
+
+.outer-wrapper {
+    width: 80%;
+    margin: 50px auto;
+}
+
+// basic styles
+.s-wrap {
+    width: 102%;
+    margin-bottom: 50px;
+    padding-bottom: 55%;
+    position: relative;
+    border: 5px solid #fafafa;
+    background-color: #efefe8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+    > input {
+        display: none;
+    }
+
+    .s-content {
+        margin: 0;
+        padding: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% * $slider-number;
+        height: 100%;
+        font-size: 0;
+        list-style: none;
+        transition: transform $switch-speed;
+    }
+
+    .s-item {
+        display: inline-block;
+        width: $slider-width;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .s-item-1 {
+        background-image: url($image1);
+    }
+    .s-item-2 {
+        background-image: url($image2);
+    }
+    .s-item-3 {
+        background-image: url($image3);
+    }
+    .s-item-4 {
+        background-image: url($image4);
+    }
+    .s-item-5 {
+        background-image: url($image5);
+    }
+    .s-item-6 {
+        background-image: url($image6);
+    }
+    .s-item-7 {
+        background-image: url($image7);
+    }
+    .s-item-8 {
+        background-image: url($image11);
+    }
+    .s-item-9 {
+        background-image: url($image9);
+    }
+    .s-item-10 {
+        background-image: url($image10);
+    }
+}
+
+
+
+    .s-nav label {
+        display: none;
+        position: absolute;
+        top: 50%;
+        padding: 5px 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+
+        &::before,
+        &::after {
+            content: "";
+            display: block;
+            width: 8px;
+            height: 24px;
+            background-color: #fff;
+        }
+
+        &::before {
+            margin-bottom: -12px;
+        }
+
+        &.left {
+            left: 20px;
+
+            &::before {
+                transform: rotate(45deg);
+            }
+
+            &::after {
+                transform: rotate(-45deg);
+            }
+        }
+
+        &.right {
+            right: 20px;
+
+            &::before {
+                transform: rotate(-45deg);
+            }
+
+            &::after {
+                transform: rotate(45deg);
+            }
+        }
+    }
+
+    @for $i from 1 through $slider-number {
+        #s-#{$i}:checked {
+            & ~ .s-content {
+                transform: translateX(-$slider-width * ($i - 1));
+            }
+
+            & ~ .s-control .s-c-#{$i} {
+                background-color: #333;
+            }
+
+            & ~ .s-nav .s-nav-#{$i} {
+                display: block;
+            }
+        }
+    }
+
+
+.s-type-2 {
+    .s-content {
+        animation: slider-animation 50s ease-in-out infinite;
+
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+}
+
+@keyframes slider-animation {
+    $i: 0;
+    $j: 0;
+    $times: ($slider-number - 1) * 2;
+    @while $i < 100 {
+        #{$i}%,
+        #{$i + 7}% {
+            @if $i < 50 {
+                transform: translateX(-$slider-width * $j);
+            }
+            @else {
+                transform: translateX(-$slider-width * ($times - $j));
+            }
+        }
+
+        $i: $i + 100 / $times;
+        $j: $j + 1;
+    }
+}
+
+
+
+
+.btn2 {
+
+    position: absolute;
+    font-family: "Bebas Neue", Arial, serif;
+    background-color: #fdb6b6;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 1px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+
+
+//----------slider heading-----------//
+h3 {
+
+    color: lightpink;
+    font-family: "Bebas Neue", Arial, serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+section2 {
+    margin-left: 70px;
+    margin: 70px;
+}
+
+//---------text resizing slider-----------//
+@media screen and (max-width: 990px) {
+    h3 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    h3 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+}
+///////////////SLIDER TOOLTIP///////////////
+
+.wrapper {
+    position: absolute;
+    font-family: "Bebas Neue", Arial, serif;
+    background-color: #fdb6b6;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.wrapper .tooltip {
+
+    left: 100%;
+    font-size:10px;
+    top: 0px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 600%;
+
+
+
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+
+
+
+
+
+}
+.tooltip {
+    background: #86698e;
+    bottom: 100%;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 200px;
+    font-size: 12px;
+     width: 700%;
+    
+    
+
+}
+
+@media screen and (max-width:2000px ) {
+    .wrapper .tooltip {
+        font-size: 14px;
+        width: 700%;
+        
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .wrapper .tooltip {
+        font-size: 12px;
+        width: 600%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper .tooltip {
+        font-size: 12px;
+        width: 380%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .wrapper .tooltip {
+        font-size: 9px;
+        width: 350%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper .tooltip {
+        font-size: 9px;
+        width: 300%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wrapper .tooltip {
+        font-size: 8px;
+        width: 260%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .wrapper .tooltip {
+        font-size: 7px;
+        width: 220%;
+    }
+}
+@media screen and (max-width: 510px) {
+    .wrapper .tooltip {
+        font-size: 6px;
+        width: 180%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .wrapper .tooltip {
+        font-size: 5.9px;
+        width: 160%;
+    }
+}
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+
+.wrapper .tooltip:before {
+    bottom: 80px;
+    top: 0px;
+    content: " ";
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper .tooltip:after {
+
+    bottom: -10px;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 0;
+}
+
+.wrapper:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+/* IE can just show/hide with no transition */
+
+.lte8 .wrapper .tooltip {
+    display: none;
+}
+
+.lte8 .wrapper:hover .tooltip {
+    display: block;
+}
+
+
+
+.colour-block {
+    background: #fdefd9;
+    width: 100%;
+    padding: 7% 20% 10% 20%;
+    color: #fff;
+}
+
+.white-block {
+    background: #fff;
+    width: 100%;
+    padding: 7% 20% 10% 20%;
+    color: #369A7E;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+
+    font-weight: normal;
+}
+
+
+
+/*----------------*/
+
+/*  SCALLOP down  */
+
+/*----------------*/
+
+.scallop-down {
+    height: 50px;
+    width: 100%;
+    background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#fdefd9), color-stop(0.49, #fdefd9), color-stop(0.51, #fff), to(white));
+    -webkit-background-size: 49px 100%;
+}
+
+
+/*----------------*/
+
+/*  SCALLOP up    */
+
+/*----------------*/
+
+.scallop-up {
+    height: 100px;
+    width: 100%;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#fdefd9), color-stop(0.49, #fdefd9), color-stop(0.51, #fff), to(white));
+    -webkit-background-size: 49px 100%;
+}
+
+
+
+
+p7{
+   font-size: 14px;
+    font-family:  Arial, serif;
+    color:grey;
+  text-align: center;
+}
+
+
+//-------------MAP-------------//
+iframe {
+
+    width: 91%;
+    height: 450px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 4.5%;
+}
+
+@media screen and (max-width: 1160px) {
+    iframe {
+        width: 89%;
+        margin-left: 5.5%;
+    }
+}
+
+//-----------FOOTER------------//
+h4 {
+
+    color: #555555;
+    font-family: "Bebas Neue", Arial, serif;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+
+}
+
+//---------text resizing-----------//
+@media screen and (max-width: 990px) {
+    h4 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    h4 {
+        font-size: 16px;
+        margin-right: 30px;
+    }
+}
+
+p {
+
+    color: #9d9c9c;
+    font-family: "Bebas Neue", Arial, serif;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+
+}
+
+//---------text resizing-----------//
+@media screen and (max-width: 990px) {
+    p {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-right: 40px;
+
+    }
+}
+
+@media screen and (max-width: 601px) {
+    p {
+        font-size: 12px;
+        margin-right: 30px;
+
+    }
+}
+
+.insta2 {
+    height: 15px;
+    width: 17px;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 0px;
+}
+
+
+//---------text resizing-----------//
+@media screen and (max-width: 990px) {
+    .insta2 {
+
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    insta2 {
+
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+}
+
+
+//-----------contact me heading------//
+h5 {
+
+    color: #919191;
+    font-family: "Bebas Neue", Arial, serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+//---------text resizing-----------//
+@media screen and (max-width: 990px) {
+    h5 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    h5 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+}
+a{
+    color:#a09f9f;
+}
+
